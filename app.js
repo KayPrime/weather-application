@@ -196,7 +196,7 @@ window.addEventListener("load", (evt) => {
                 countryFactMainDiv.append(countryFactMinDiv);
                 countryFactMinDiv.append(cityIsIn, countryFacts);
 
-                greetingText.innerText = `Hello ${name}`
+                greetingText.innerText = `Hello ${name},`
                 searchButton.innerText = `Search`
                 weatherEle.innerHTML = `<img src="https://openweathermap.org/img/wn/${finalWeatherInfo.icon}@2x.png" alt="weather-symbol" style="width: 67px; height: 67px;"> ${finalWeatherInfo.main}`
                 weatherDesEle.innerText = `${finalWeatherInfo.description}`
