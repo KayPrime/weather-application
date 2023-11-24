@@ -1,0 +1,28 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+header {
+ min-height: 7vh;
+}
+
+footer {
+    min-height: 7vh;
+}
+
+.main-container {
+    min-height: 86vh;
+}
+
+.temp-val {
+    font-size: 6rem;
+}
+
+.rain-main {
+    font-size: 3rem;
+}
+
+.class100 {
+    min-height: 86vh;
+}
